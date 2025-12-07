@@ -34,5 +34,4 @@ const columns = transpose(values)
 
 const results = columns.map((items, index) => operate(items, operators[index]))
 
-console.log({ columns, operators, results })
 console.log(sum(results))

@@ -66,5 +66,4 @@ const columns = transpose(
 
 const results = columns.map((items, index) => operate(items, operators[index]))
 
-console.dir({ columns, operators, results }, { depth: Infinity })
 console.log(sum(results))
